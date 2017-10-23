@@ -1,0 +1,30 @@
+html{
+    box-sizing: 100%;
+}
+
+header{
+    font-weight: bold;
+    font-style: italic;
+    color: yellow;
+    font-size: 20px;
+}
+body>header{
+    font-family: Helvetica, "Liberation sans", "Sans serif", monospace;
+    font-size: 30px
+}
+
+nav>ul {
+    list-style-image: url(../rouge.png);
+}
+li>a {
+    color: green;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+section>header{
+    font-weight: bold;
+    background-color: blue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

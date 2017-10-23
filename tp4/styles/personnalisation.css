@@ -1,0 +1,123 @@
+main {
+	margin-top:100px;
+	margin-bottom:100px;
+}
+header{
+	background-color:blue;
+	color: black;
+	font-style: normal;
+	font-weight:normal;
+}
+header, footer {
+    height:50px;
+    font-stretch: extra-expanded;
+    font-family: cursive;
+    font-size:2em;
+}
+
+header>a, footer>a {
+    margin: 0 50px ;
+    /*margin-right: 50px;*/
+}
+
+header>a>img, footer a{
+    border: 2px outset gray;
+}
+
+header a:hover, footer a:hover {
+    color: red;
+}
+
+header a>img{
+    height: 50px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    border: 1px solid #000;
+    margin: 3px;
+}
+
+nav li>a{
+    color: blue;
+    text-decoration: none;
+}
+nav li:hover{
+	font-weight:bold;
+	text-decoration:none;
+	background-color:blue;
+    color: white;
+}
+
+nav a:hover{
+    color: white;
+}
+
+nav li:hover a {
+    color: white;
+}
+
+h2 {
+	color:navy;
+}
+h3{
+		margin:5px;
+}
+
+table {
+	border-style:groove;
+	border-width:10px;
+	width:100%;
+}
+td {
+	border-width:1px;
+}
+
+a{
+	color:green;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+
+img{
+	vertical-align: middle;
+}
+
+ul {
+	color:gray;
+	list-style-image: url('../images/rouge.png');
+}
+
+ul ul li{
+    list-style-image: url('../images/bleu.png');
+}
+
+section {
+	padding:5px;
+	font-size:12px;
+}
+p{
+	color:navy;
+	font-weight:bold;
+}
+
+section>section>header{
+    color: blue;
+    background: none;
+    font-size: 18px;
+}
+
+#scrum_master>header, #cloud_broker>header{
+    color:yellow;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+    height: 30px;
+    vertical-align: middle;
+}

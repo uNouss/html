@@ -1,0 +1,21 @@
+Cloud Broker
+expert des solutions de cloud computing
+A mesure que le recours au cloud computing se généralise au sein des entreprises, 
+le cloudbroker conseille et accompagne les entreprises dans l'ouverture de leur système d'information
+aux prestataires externes et au cloud public 
+Fonction
+Faciliter l'intégration du cloud dans les systèmes d'information existants
+En tant que véritable expert du marché du cloud computing, 
+le cloud broker sert d'intermédiaire entre l'entreprise et les professionnels de cloud
+Son rôle consite à :
+Evaluer les besoins existants de l'entreprise en matière de cloud
+Constituer un catalogue agrégé des solutions existantes sur le marché,
+pour optimiser et faciliter le recours au cloud par l'entreprise.
+Accompagner et suivre la mise en oeuvre de ces services et 
+leur appropriation par l'entreprise
+Compétences
+Compétences requises
+Audit 5/5
+Analyse 5/5
+Etude de marché 4/5
+Négociation 48/5

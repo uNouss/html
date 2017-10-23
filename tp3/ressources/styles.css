@@ -1,0 +1,41 @@
+h1{
+background-color:skyblue;
+border-color:blue;
+border-style:ridge;
+border-width:10px;
+text-align:center;
+padding:20px;
+margin: 2px 50px 2px 50px;
+}
+
+ol{
+	list-style:upper-roman;
+}
+ul {
+list-style-image:url('images/puce.gif');
+}
+ul ul{
+list-style:square;
+}
+
+ul  a{
+display:block;
+background-color:red;
+color:yellow;
+font-style:italic;
+font-weight:bold;
+border-style:outset;
+text-align:center;
+width:200px;
+padding:5px;
+margin-top:20px;
+}
+
+ul a:hover{
+background-color:yellow;
+color:red;
+}
+hr{
+	color:blue;
+margin-top:10px;
+}

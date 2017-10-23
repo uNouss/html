@@ -1,0 +1,60 @@
+nav {
+    width: 100%;
+    display: inline-block;
+    top: 80px;
+    border: none;
+    text-align: center;
+}
+
+nav>ul{
+    width:80%;
+    margin: 0 auto;
+}
+
+nav>ul>li>ul>li{
+    display: none;
+}
+
+nav>ul>li:hover ul>li{
+    display: block;
+}
+
+nav>ul>li {
+    width: 200px;
+    display: inline-table;
+    line-height: 30px;
+    padding: 0 10px;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: bold;
+    color:darkred;
+    margin: 0 10px;
+    text-align: center;
+}
+
+nav>li>li li, nav ul li>ul>li a{
+    color: white;
+}
+nav ul li>ul>li:hover{
+    background-color: yellow;
+}
+
+nav ul li>ul>li:hover a{
+    color: black;
+}
+
+main{
+    margin: 120px 80px;
+    float:left;
+}
+
+
+#scrum_master, #cloud_broker, #ux_designer{
+    float: left;
+    width: 49%;
+}
+
+main a img{
+    clear: both;
+    display: block;
+}

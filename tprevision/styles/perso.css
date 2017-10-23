@@ -1,0 +1,67 @@
+body{
+    background-image: url(../images/fond.png);
+    background-repeat: repeat-y;
+    color:darkblue;
+    border: solid;
+    border-width: 5px;
+}
+header{
+    border: 5px outset blue;
+    margin-left: 0;
+    margin-right: 0;
+}
+nav {
+    width: 100%;
+    text-align: center;
+    border: none;
+    position: absolute;
+    top: 50px;
+}
+nav ol{
+    margin: 0 auto;
+}
+nav ol li{
+    display: inline-table;
+    list-style: none;
+    border: 3px outset blue;
+    padding: 5px 20px;
+}
+
+main{
+    position: absolute;
+    top: 100px;
+    border: none;
+    margin-left: 130px;
+}
+
+section ul li{
+    list-style-image: url(../images/puce_panda.gif);
+    
+}
+
+ul ul li{
+    list-style-image: url(../images/puce_panda.png);
+}
+
+footer{
+    border: none;
+    background: transparent;
+    margin: 5px;
+}
+footer img {
+    float: left;
+}
+blockquote{
+    text-align: center;
+}
+table{
+    border: 15px ridge gray;
+    margin: 0 auto;
+}
+
+table th{
+    border: none;
+}
+table td{
+    border: 3px dotted black;
+}

@@ -1,0 +1,21 @@
+Disposition dans les css
+
+La disposition dépend de 3 éléments
+positionnement
+taille 
+voisinage
+
+Le positionnement est fixé via les propriétés :
+top : distance par rapport au bord supérieur
+bottom: distance par rapport au bord inférieur
+right : distance par rapport au bord droit
+left : distance par rapport au bord gauche
+
+La taille d'un bloc est fixée via les propriétés :
+width : fixe la largeur
+height : fixe la hauteur
+
+Le voisinage est fixé via la propriété clear qui peut prendre les valeurs de :
+left : l'élément sera affiché au dessous de l'élément précèdent si ce dernier est à float:left
+right : l'élément sera affiché au dessous de l'élément précèdent si ce dernier est à float:right
+both : l'élément sera affiché au dessous de l'élément précèdent si ce dernier est à float:left ou float:right
